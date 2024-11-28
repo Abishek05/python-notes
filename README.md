@@ -19,8 +19,18 @@ All Python Syntax usage guide
 5. dir() function -> If we pass a variable into it like dir(message), it will show all of the attributes and methods that we have access to with that variable.
 6. Numbers are most commonly represented with integers and floats sometimes complex number(3.14 + 3j), an integer is a whole number and a float is a decimal
 7. type() function -> Builtin function where we can see the datatype of an object
-8. abs() function in Number -> Builtin function to remove sign from any negative numbers. abs(-3) -> 3
-9. round() function in Number -> Builtin function Round our values to nearest integer value
+8. abs() function in Number -> Builtin method to remove sign from any negative numbers. abs(-3) -> 3
+9. round() function in Number -> Builtin method Round our values to nearest integer value
+10. list and tuples are sequential and sets are unordered collection of values with no duplicates
+11. sorted(<list>) function in list -> returns the sorted version of the list without modifying original list
+12. in operator is used to check if a values is in a list, `'Art' in courses` -> This will return True or False
+13. Sets are used to throw away duplicates and check if a value is part of the set
+14. Dictionary allows us to work with key, value pairs. Key is unique identifier to identify data and value is the data
+15. 
+
+
 
 ## Errors
-1. IndexError (String index out of range)
+1. IndexError (string, list index out of range)
+2. ValueError (list.remove(x): x not in list), 18 is not in list
+3. TypeError ('tuple' object does not support item assignment)
